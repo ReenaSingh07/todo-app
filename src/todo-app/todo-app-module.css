@@ -1,0 +1,51 @@
+*{
+    padding: 5px;
+    background-color: #f6f6f6; 
+}
+div > input{
+    width: 70%;
+    background-color: black;
+    color: wheat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+div > button{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: wheat;
+}
+@media only screen and (min-width : 800px)
+{
+    div {
+        margin-left: 60px;
+    }
+    div > input{
+        width: 40%;
+        background-color: black;
+        color: wheat;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        height: 35px;
+        margin-left: 200px;
+    }  
+    div > button{ 
+        margin-left: 5px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        background-color: black;
+        color: wheat;
+    }
+    h1{
+        margin-left: 150px;
+    }
+    .replaceTodoDone
+    {
+        display: grid;
+        grid-gap: 5px;
+    }
+}
